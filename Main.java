@@ -23,7 +23,7 @@ public class Main {
                 break;
 
             case "SUBTRACT":
-                System.out.println("We will subtract the second input from your first. Enter your first value.");
+                System.out.println("We will subtract the second value from your first value. Enter your first value.");
                 double subNum1 = scanner.nextInt();
 
                 System.out.println("Enter your second value.");
@@ -46,7 +46,7 @@ public class Main {
                 System.out.println("We will divide the first value by the second value. Enter your first value.");
                 double divNum1 = scanner.nextInt();
 
-                System.out.println("Enter your first value");
+                System.out.println("Enter your second value");
                 double divNum2 = scanner.nextInt();
 
                 myCalculator.divide(divNum1, divNum2);
@@ -66,6 +66,7 @@ public class Main {
                 myCalculator.squareRoot(sqrtNum1);
                 break;
             case "SIN":
+            case "SINE":
                 System.out.println("Enter your value.");
                 double sinNum1 = scanner.nextInt();
 
@@ -86,7 +87,7 @@ public class Main {
                 myCalculator.TAN(tanNum1);
                 break;
             case "FACTORIAL":
-                System.out.println("Enter your first value.");
+                System.out.println("Enter your value.");
                 double facNum1 = scanner.nextInt();
 
                 myCalculator.factorial(facNum1);
