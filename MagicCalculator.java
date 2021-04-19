@@ -29,7 +29,7 @@ public class MagicCalculator extends Calculator{
             for(var i = num1; i >= 1; i--){
                 total = total * i;
             }
-            System.out.println("The tangent of " + num1 + " is " + total);
+            System.out.println("The factorial of " + num1 + " is " + total);
         }
     }
 }
