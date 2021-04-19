@@ -25,6 +25,7 @@ public class MagicCalculator extends Calculator{
         double total = 1;
         if (num1 == 0 || num1 == 1){
             total = 1;
+            System.out.println("The factorial of " + num1 + " is " + total);
         } else {
             for(var i = num1; i >= 1; i--){
                 total = total * i;
